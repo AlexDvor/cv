@@ -1,0 +1,28 @@
+.header {
+  margin-top: 20px;
+}
+
+.wrapper-profile {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper-profile__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.profession {
+  margin-top: 15px;
+}

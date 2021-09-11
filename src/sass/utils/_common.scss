@@ -1,10 +1,10 @@
 body {
-  font-family: var(--font-family);
-  background-color: #072732;
+  // font-family: var(--font-family);
+  // background-color: #072732;
 }
 
 ul {
-  list-style: none;
+  // list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -20,11 +20,4 @@ h2,
 h3 {
   margin: 0px;
   padding: 0px;
-}
-
-.content {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
