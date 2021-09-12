@@ -1,7 +1,12 @@
 :root {
-  --font-family: 'Roboto', sans-serif;
+  --font-family: 'Montserrat', sans-serif;
   --background-body-color: #e8e8e8;
   --primary-font-color: #2c2c2c;
   --time: 250ms;
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  //
+  --tertiary-color-text: #ffffff;
+  --inactive-color-button: #afb1b8;
+  --accent-color: #2196f3;
 }
