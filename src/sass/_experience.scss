@@ -33,9 +33,12 @@
 }
 
 .exexperience-list__progress {
+  list-style: none;
 }
 
 .exexperience-list__progress__item {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -43,4 +46,9 @@
   &:first-child {
     margin-top: 15px;
   }
+}
+
+.exexperience-list__progress__icon {
+  margin-right: 10px;
+  fill: tomato;
 }
