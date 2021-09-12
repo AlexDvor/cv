@@ -2,11 +2,29 @@
   margin-top: 20px;
 }
 
+.wrapper-header {
+  position: relative;
+}
+
+.wrapper-name {
+  height: 200px;
+  background-color: #838383;
+  padding: 67px;
+}
+
 .name {
-  // margin-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 2;
   text-align: center;
+  color: #f7f7f7;
 }
 .wrapper-profile {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -23,7 +41,7 @@
 }
 
 .profession {
-  // margin-top: 15px;
+  margin-top: 100px;
   text-align: center;
 }
 .contacts {
