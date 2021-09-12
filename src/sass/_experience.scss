@@ -24,6 +24,9 @@
   margin-bottom: 15px;
 }
 
+.exexperience-list__place {
+  color: var(--accent-color-text);
+}
 .exexperience-list__data {
   font-style: normal;
   font-size: 14px;
@@ -50,5 +53,5 @@
 
 .exexperience-list__progress__icon {
   margin-right: 10px;
-  fill: tomato;
+  fill: var(--fill-point-color);
 }

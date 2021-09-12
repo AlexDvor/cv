@@ -1,10 +1,12 @@
 :root {
   --font-family: 'Montserrat', sans-serif;
+  --fill-point-color: tomato;
   --background-body-color: #e8e8e8;
   --primary-font-color: #2c2c2c;
-  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --accent-color-text: #ff6b08;
+  // --time-function: cubic-bezier(0.4, 0, 0.2, 1);
   --semi-transparent-font-color: #a8a8a8;
-  --time: 250ms;
+  // --time: 250ms;
 
   // header
   --background-color-header: #1e2939;
