@@ -14,7 +14,7 @@
 }
 
 .background-box {
-  padding: 10px;
+  padding: 10px 15px;
   background-color: var(--background-title-color);
 }
 
@@ -38,10 +38,6 @@
 
   display: flex;
   align-items: center;
-
-  &:last-child {
-    margin-bottom: 20px;
-  }
 }
 
 .type-skill__icon {
