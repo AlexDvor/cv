@@ -1,0 +1,25 @@
+.skills {
+  margin-top: 20px;
+}
+
+.type-skill {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: start;
+}
+
+.type-skill__list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.type-skill__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
