@@ -51,7 +51,7 @@
 
 .type-skill__list {
   list-style: none;
-  padding: 10px;
+  padding: var(--paddings-in-blocks);
 }
 
 .type-skill__item {
