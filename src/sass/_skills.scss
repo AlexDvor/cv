@@ -1,5 +1,5 @@
 .skills {
-  margin-top: 20px;
+  margin: var(--margin-between-sections);
 }
 
 .container-skill--position {
@@ -19,14 +19,14 @@
   background-color: white;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
     0px 1px 3px 0px rgb(0 0 0 / 12%);
-  &:not(:last-child) {
-    margin-bottom: 15px;
+  &:not(:first-child) {
+    margin: var(--margins-between-blocks);
   }
 
   @include for-tablet-up {
     min-width: 225px;
-    &:not(:last-child) {
-      margin-bottom: 0px;
+    &:not(:first-child) {
+      margin: 0px auto 0px auto;
     }
   }
 
