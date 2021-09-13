@@ -8,6 +8,7 @@
     justify-content: space-between;
   }
 }
+
 .wrapper-experience {
   border-radius: 6px;
   overflow: hidden;
@@ -20,7 +21,7 @@
   }
 
   @include for-desktop-up {
-    width: 500px;
+    width: 485px;
     margin-top: 0px;
 
     &:not(:first-child) {
@@ -33,6 +34,7 @@
   padding: 10px 15px;
   background-color: var(--background-title-color);
 }
+
 .experience-title {
   font-style: normal;
   font-weight: 700;
