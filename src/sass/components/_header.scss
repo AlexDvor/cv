@@ -50,13 +50,16 @@
 }
 
 .profession {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.4;
   text-align: center;
 }
 
 //
 
 .wrapper-contacts {
-  margin-top: 15px;
+  margin-top: 22px;
 }
 .contacts-list {
   display: flex;
@@ -97,4 +100,5 @@
   line-height: 1.4;
   text-align: center;
   margin-top: 15px;
+  padding: 10px 20px;
 }
