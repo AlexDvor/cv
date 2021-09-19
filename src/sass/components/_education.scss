@@ -16,6 +16,13 @@
   background-color: var(--background-title-color);
 }
 
+.background-education--hover {
+  &:hover,
+  &:focus {
+    background-color: var(--background-color-btn);
+  }
+}
+
 .education__title {
   font-style: normal;
   font-weight: 700;

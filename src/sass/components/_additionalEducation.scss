@@ -2,6 +2,10 @@
   margin-bottom: 50px;
 }
 
+.background-education--padding {
+  padding: 0px;
+}
+
 .education__title__btn {
   font-style: normal;
   font-weight: 700;
@@ -11,6 +15,9 @@
   text-align: center;
   background-color: transparent;
   border: none;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
 }
 
 .education-list--hidden {
