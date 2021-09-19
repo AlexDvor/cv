@@ -5,4 +5,4 @@ const t=document.getElementById("content-list"),e=document.querySelector(".educa
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("normalize.css"),require("./js/educationBtn");
 },{"./sass/main.scss":"clu1","normalize.css":"clu1","./js/educationBtn":"S39q"}]},{},["Focm"], null)
-//# sourceMappingURL=/summary/src.f4c1dbf8.js.map
+//# sourceMappingURL=/summary/src.d7f27bcc.js.map
