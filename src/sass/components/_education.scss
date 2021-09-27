@@ -17,6 +17,8 @@
 }
 
 .background-education--hover {
+  @include transition($element: background-color);
+
   &:hover,
   &:focus {
     background-color: var(--background-color-btn);

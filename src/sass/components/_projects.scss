@@ -54,6 +54,32 @@
   margin-top: 10px;
 }
 
+.projects-list__ref {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  color: inherit;
+  text-decoration: underline;
+  @include transition;
+
+  &:focus,
+  &:hover {
+    color: var(--accent-hover-effects);
+    text-decoration: none;
+  }
+}
+
+.projects-list__icon {
+  margin-left: 10px;
+  @include transition($element: fill);
+
+  .projects-list__ref:hover &,
+  .projects-list__ref:focus & {
+    fill: var(--accent-hover-effects);
+    color: var(--accent-hover-effects);
+  }
+}
+
 .projects-list__technologies {
   font-style: normal;
   font-size: 14px;
