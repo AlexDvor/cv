@@ -42,24 +42,26 @@
   line-height: 1.3;
   margin-top: 20px;
 }
-.projects-list__name__project {
-  color: var(--accent-color-text);
-}
 
-.projects-list__link {
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.8;
-  margin-top: 10px;
-}
+// .projects-list__name__project {
+//   color: var(--accent-color-text);
+// }
+
+// .projects-list__link {
+//   font-style: normal;
+//   font-size: 14px;
+//   font-weight: 600;
+//   line-height: 1.8;
+//   margin-top: 10px;
+// }
 
 .projects-list__ref {
   display: inline-flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 3px;
   color: inherit;
   text-decoration: underline;
+  padding: 10px 5px;
   @include transition;
 
   &:focus,

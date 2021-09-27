@@ -2,10 +2,11 @@
   --font-family: 'Montserrat', sans-serif;
   --fill-point-color: tomato;
   --semi-transparent-font-color: #a8a8a8;
-  --background-body-color: #e2e2e2;
   --primary-font-color: #2c2c2c;
   --accent-color-text: #ff6b08;
-  --accent-hover-effects: #00bdd6;
+
+  //body
+  --background-body-color: #e2e2e2;
 
   // header
   --background-color-header: #616161;
@@ -21,11 +22,14 @@
 
   // margins for sections
   --margin-between-sections: 40px 0px 0px 0px;
+
   // margins for blocks
   --margins-between-blocks: 20px 0px 0px 0px;
+
   // paddings for blocks
   --paddings-in-blocks: 20px 20px 20px 20px;
 
   // hover
   --background-color-btn: #00bdd6;
+  --accent-hover-effects: #ff6b08;
 }
