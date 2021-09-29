@@ -13,6 +13,4 @@ function onClickButton() {
     top: document.documentElement.scrollHeight,
     behavior: 'smooth',
   });
-
-  console.log('ggg');
 }
