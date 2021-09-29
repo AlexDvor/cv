@@ -1,12 +1,12 @@
 {
-  "name": "summary",
+  "name": "cv",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AlexDvor.github.io/summary",
+  "homepage": "https://AlexDvor.github.io/cv",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /summary/",
+    "build": "parcel build src/*.html --public-url /cv/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
