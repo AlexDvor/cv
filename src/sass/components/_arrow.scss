@@ -4,17 +4,18 @@ $duration: 0.5s;
 
 .arrow-icon {
   position: absolute;
-  top: 0;
-  right: 20px;
-  // height: 2.8em;
+  top:2px;
+  right: 0px;
   width: 2.8em;
   display: block;
   padding: 0.5em;
   margin: 1em auto;
-  // position: relative;
+ 
   cursor: pointer;
   border-radius: 4px;
   background-color: transparent;
+
+  
 }
 
 .arrow-icon__second-arrow {
