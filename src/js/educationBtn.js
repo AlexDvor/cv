@@ -14,5 +14,3 @@ function onClickButton() {
     behavior: 'smooth',
   });
 }
-
-ccccccc;
