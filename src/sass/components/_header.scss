@@ -65,41 +65,75 @@
 //
 
 .wrapper-contacts {
-  margin-top: 22px;
-}
-.contacts-list {
   display: flex;
   justify-content: center;
+  margin-top: 22px;
+}
+
+.contacts-list {
+  // display: flex;
+  // justify-content: center;
   list-style: none;
 }
 
 .contacts-list__item {
-  &:not(:last-child) {
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  &:not(:first-child) {
+    margin-top: 10px;
   }
 }
 
 .contacts-list__link {
   display: flex;
-  width: 40px;
-  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--primary-font-color);
+  // width: 25px;
+  // height: 25px;
   align-items: center;
   justify-content: center;
-  fill: var(--inactive-icon-color);
+  // background-color: var(--background-icon-color);
+  // fill: var(--inactive-icon-color);
+  fill: #616161;
   border-radius: 50%;
-  background-color: var(--background-icon-color);
   cursor: pointer;
   @include transition($element: fill);
   @include transition($element: background-color);
 
   &:hover,
   &:focus {
-    fill: var(--inactive-color-icon-text);
-    border-radius: 50%;
-    background-color: var(--background-accent-icon-color);
+    fill: var(--accent-hover-effects);
+    color: var(--accent-hover-effects);
+    // border-radius: 30%;
+    // background-color: var(--background-accent-icon-color);
   }
 }
 
+// .contacts-list__ref {
+//   font-weight: 400;
+//   font-size: 13px;
+//   line-height: 1.4;
+//   text-align: center;
+//   margin-left: 10px;
+//   color: var(--primary-font-color);
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-hover-effects);
+//   }
+// }
+
+.contacts-list__icon {
+  margin-right: 10px;
+  // fill: #616161;
+
+  .contacts-list__link:focus &,
+  .contacts-list__link:hover & {
+    color: var(--accent-hover-effects);
+    // background-color: red;
+  }
+}
 .about-me {
   font-weight: 400;
   font-size: 15px;
