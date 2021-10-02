@@ -102,6 +102,12 @@
   font-size: 14px;
   line-height: 1.6;
   color: var(--primary-font-color);
+  @include transition;
+
+  &:focus,
+  &:hover {
+    color: var(--accent-hover-effects);
+  }
 }
 
 .type-contact__icon {
@@ -109,4 +115,10 @@
   min-width: 17px;
   fill: #525252;
   margin-right: 8px;
+  @include transition($element: fill);
+
+  .type-contact__link:hover &,
+  .type-contact__link:focus & {
+    fill: var(--accent-hover-effects);
+  }
 }
