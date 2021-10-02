@@ -98,13 +98,12 @@
   fill: var(--inactive-icon-color);
   border-radius: 50%;
   cursor: pointer;
-  @include transition($element: fill);
+  // @include transition($element: fill);
   @include transition($element: background-color);
 
   &:hover,
   &:focus {
-    fill: var(--accent-hover-effects);
-    background-color: transparent;
+    background-color: var(--accent-hover-effects);
   }
 }
 
