@@ -71,16 +71,16 @@
 }
 
 .contacts-list {
-  // display: flex;
-  // justify-content: center;
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
 
 .contacts-list__item {
   display: flex;
   align-items: center;
-  &:not(:first-child) {
-    margin-top: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
   }
 }
 
@@ -90,13 +90,13 @@
   font-size: 14px;
   line-height: 1.4;
   color: var(--primary-font-color);
-  // width: 25px;
-  // height: 25px;
+  width: 40px;
+  height: 40px;
   align-items: center;
   justify-content: center;
-  // background-color: var(--background-icon-color);
-  // fill: var(--inactive-icon-color);
-  fill: #616161;
+  background-color: var(--background-icon-color);
+  fill: var(--inactive-icon-color);
+  // fill: #616161;
   border-radius: 50%;
   cursor: pointer;
   @include transition($element: fill);
@@ -124,21 +124,21 @@
 //   }
 // }
 
-.contacts-list__icon {
-  margin-right: 10px;
-  // fill: #616161;
+// .contacts-list__icon {
+//   // margin-right: 10px;
+//   // fill: #616161;
 
-  .contacts-list__link:focus &,
-  .contacts-list__link:hover & {
-    color: var(--accent-hover-effects);
-    // background-color: red;
-  }
-}
+//   .contacts-list__link:focus &,
+//   .contacts-list__link:hover & {
+//     color: var(--accent-hover-effects);
+//     // background-color: red;
+//   }
+// }
 .about-me {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4;
   text-align: center;
   margin-top: 15px;
-  padding: 10px 20px;
+  padding: 25px 20px;
 }
